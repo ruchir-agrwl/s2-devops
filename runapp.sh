@@ -1,2 +1,2 @@
 echo 'Starting my app'
-java -jar s2-devops-0.0.1-SNAPSHOT.jar
+java -jar target/s2-devops-0.0.1-SNAPSHOT.jar
