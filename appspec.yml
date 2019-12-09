@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: ./
-    destination: /home/ec2-user/cd-demo
+    destination: /home/ec2-user/cd-12dec
 hooks:
   ApplicationStart:
     - location: runapp.sh
-      runas: ec2-user
+      runas: root
