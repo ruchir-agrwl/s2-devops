@@ -9,6 +9,7 @@ public class DevopsController {
 	@GetMapping(value="/devops")
 	public String getResponse()
 	{
+		System.out.println("getResponse() method is called !!");
 		return "Hello Devops from Spring Boot";
 	}
 
